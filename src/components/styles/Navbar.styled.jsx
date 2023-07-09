@@ -14,5 +14,6 @@ export const NavbarStyled = styled.nav`
 
 img {
     max-width: 100px;
+    cursor: pointer;
 }
 `

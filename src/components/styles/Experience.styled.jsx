@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
-export const ExperienceStyled = styled.div`         
+export const ExperienceStyled = styled.div` 
+    background: linear-gradient(gray, white);       
     gap: 3em;    
     width: 100%;
     padding: 2em;

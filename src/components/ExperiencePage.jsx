@@ -1,4 +1,3 @@
-import React from 'react'
 import { ExperienceStyled } from './styles/Experience.styled'
 import Card from './Card'
 import Data from '../Data'

@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const HeroStyled = styled.div`
     display: flex;
-    padding: 20px;
+    padding: 0 5em;
     background: linear-gradient(135deg, #00feba, #56548a);
     width: 100%;
     width: 100vw;
@@ -17,6 +17,7 @@ export const HeroStyled = styled.div`
     }
     img{
         align-self: end;
+        padding: 3em;
     }
 
     h1{
