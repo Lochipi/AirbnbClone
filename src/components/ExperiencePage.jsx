@@ -7,7 +7,7 @@ import { Flex } from './styles/Flex.styled'
 function ExperiencePage() {
 
     const cards = Data.map((item) => 
-      <Card 
+      <Card
         key = {item.id}
         img={item.coverImg}
         rating={item.stats.rating}

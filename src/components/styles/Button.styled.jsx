@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Button = styled.button`
     border-radius:50px;
-    border: none;
+    border: 2px solid gray;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
     cursor:pointer;
     font-size: 16px;
@@ -15,5 +15,16 @@ export const Button = styled.button`
     &:hover {
         opacity: 0.9;
         transform: scale(0.98)
+    }
+
+    @media (max-width: 768px) {
+        width: 9rem;
+        padding: 0.5em 1em;
+        margin-bottom: 0.5em;
+    }
+
+    @media (min-width: 769px) and (max-width: 1023px){
+        width: 150px;
+        padding: 0.5em 2em;
     }
 `

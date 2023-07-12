@@ -5,7 +5,6 @@ export const HeroStyled = styled.div`
     padding: 0 5em;
     background: linear-gradient(135deg, #00feba, #56548a);
     width: 100%;
-    width: 100vw;
     margin-top: 70px;
 
     .content {
@@ -27,5 +26,37 @@ export const HeroStyled = styled.div`
     p{
         margin-top: 0;
         color: #fff;
+    }
+
+    @media (min-width: 769px) and (max-width: 1023px) {
+        .content h1{
+            margin-top: 1rem;
+            font-size: 2rem;
+        }
+
+        .content p{
+            font-size: 0.7rem;
+            line-height: 1.5;
+        }
+
+        & div img {
+            max-width: 600px;
+        }
+      }
+
+    @media (max-width: 768px) {
+        .content h1{
+            margin-top: 1rem;
+            font-size: 1.5rem;
+        }
+
+        .content p{
+            font-size: 0.7rem;
+            line-height: 1.5;
+        }
+
+        & div img {
+            width: 600px;
+        }
     }
 `
